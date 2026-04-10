@@ -24,14 +24,14 @@ And produce a report with:
 ### Option 1: Copy to personal skills (recommended)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/audit-claude-config.git
+git clone https://github.com/cxt9/audit-claude-config.git
 cp -r audit-claude-config ~/.claude/skills/audit-claude-config
 ```
 
 ### Option 2: Symlink (auto-updates with git pull)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/audit-claude-config.git ~/audit-claude-config
+git clone https://github.com/cxt9/audit-claude-config.git ~/audit-claude-config
 ln -s ~/audit-claude-config ~/.claude/skills/audit-claude-config
 ```
 
